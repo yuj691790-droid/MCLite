@@ -14,6 +14,13 @@
 
 <small>希望别被那几个搞私服的拿下。</small>
 
+<details>
+<summary>一段小字</summary>
+
+<small>Attacking other creators' work without hesitation for personal gain and harming their legal rights will surely be met with the harshest condemnation and sanctions.</small>
+
+</details>
+
 ## 功能
 
 - 原版安装：客户端、平台库、原生库解压、资源与日志配置，支持散列校验、断点续传和 BMCLAPI 镜像。
