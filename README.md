@@ -12,12 +12,12 @@
 
 本项目实属PCL启动器下载功能被永久停用的无奈产物，一切知识产权归PCL原作者龙腾猫跃所有，本项目仅是对PCL的拙劣模仿。
 
-<small>希望别被那几个搞私服的拿下。</small>
+<sub>希望别被那几个搞私服的拿下。</sub>
 
 <details>
 <summary>一段小字</summary>
 
-<small>Attacking other creators' work without hesitation for personal gain and harming their legal rights will surely be met with the harshest condemnation and sanctions.</small>
+<sub>Attacking other creators' work without hesitation for personal gain and harming their legal rights will surely be met with the harshest condemnation and sanctions.</sub>
 
 </details>
 
