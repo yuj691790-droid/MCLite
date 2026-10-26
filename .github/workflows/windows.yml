@@ -1,0 +1,30 @@
+name: windows
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test-and-build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Lint
+        run: |
+          python -m pip install pyflakes
+          python -m pyflakes mclite tests tools run.pyw
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Doctor
+        run: python -m mclite doctor
+      - name: Build exe
+        run: |
+          .\build_windows.bat
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MCLite-windows
+          path: dist/MCLite.exe

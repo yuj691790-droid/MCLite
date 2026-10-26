@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+.venv/
+settings.json
+accounts.json
+logs/
+.minecraft/
+java/
